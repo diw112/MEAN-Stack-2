@@ -19,6 +19,6 @@ https://nodemon.io
 # Start Server
 `nodemon server.js`
 
-![alt tag](https://raw.githubusercontent.com/diw112/MEAN-Stack-2/master/app.jpg)
+![alt tag](https://raw.githubusercontent.com/diw112/Start-MEAN-Stack-2/master/app.jpg)
 
 
