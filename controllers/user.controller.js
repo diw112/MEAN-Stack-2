@@ -12,3 +12,16 @@ exports.list = function (req, res) {
         }
     });   
 };
+
+// Post User 
+exports.create = function(req, res, next) {
+    const user = new User(req.body);
+
+    user.save(function(){
+        if(err){
+            return next(err);
+        }else{
+            res.json(user);
+        }
+    });
+};

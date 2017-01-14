@@ -6,6 +6,6 @@ router.get('/', (req, res) => {
 });
 
 const user = require('../controllers/user.controller');
-router.route('/user').get(user.list);
+router.route('/user').get(user.list).post(user.create);
 
 module.exports = router;
