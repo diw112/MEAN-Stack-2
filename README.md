@@ -1,9 +1,9 @@
 # MEAN-Stack-2
 
 # Get Started
-  1. ลบโฟลเดอร์ client
-  2. Angular CLI คำสั่ง `ng new client`
-  3. Angular CLI คำสั่ง `ng build`
+  1. Delete Folder Client
+  2. Angular CLI => `ng new client`
+  3. Angular CLI => `ng build`
 
 # Install Nodemon
 https://nodemon.io
