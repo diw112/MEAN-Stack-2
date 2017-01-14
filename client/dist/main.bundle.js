@@ -343,7 +343,7 @@ module.exports = ""
 /***/ 610:
 /***/ function(module, exports) {
 
-module.exports = "<app-navbar></app-navbar>\n<app-home></app-home>\n<h1>\n  {{title}}\n</h1>"
+module.exports = "\n<h1>\n  {{title}}\n</h1>"
 
 /***/ },
 
