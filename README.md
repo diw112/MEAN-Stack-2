@@ -8,6 +8,10 @@
 # Install Nodemon
 https://nodemon.io
 
+# Start Mongodb
+`mongod`
+
+# Start Server
 `nodemon server.js`
 
 ![alt tag](https://raw.githubusercontent.com/diw112/MEAN-Stack-2/master/app.jpg)
