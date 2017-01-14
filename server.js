@@ -2,6 +2,7 @@
 const apiRouter = require('./routes/api');
 const mongoose = require('./mongoose');
 const express = require('express');
+const http = require('http');
 const path = require('path');
 const bodyParser = require('body-parser');
 
@@ -23,6 +24,8 @@ app.get('*', ()=>{
 
 const PORT = 80 || process.env.PORT;
 
-app.listen(PORT, ()=>{
+const Server = http.createServer(app);
+
+Server.listen(PORT, ()=>{
     console.log('Server on Port'+PORT);
 })
